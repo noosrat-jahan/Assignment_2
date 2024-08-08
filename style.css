@@ -11,6 +11,7 @@
 
 body{
     background-color: rgb(0, 0, 0);
+    /* background-color: #fff; */
     overflow-x: hidden;   
     font-family: "Inter", sans-serif;
     
@@ -21,10 +22,8 @@ body{
     src: url('miama/Miama.otf') format('truetype');
   }
 
-
-
 /* shared styles */
-/* .primary_btn{
+.primary_btn{
     color: #fff;
     background-color: rgb(230, 83, 60);
     border: none;
@@ -44,7 +43,7 @@ p{
     font-size: 1.1rem;
     font-weight: 400;  
     line-height: 25px;    
-} */
+}
 
 
 
@@ -57,7 +56,7 @@ p{
     background-image: linear-gradient(180.00deg,  rgb(35, 35, 35), rgba(119, 119, 119, 0));    
 }
 
-/* 
+
 nav{    
     width: 1010px;
     margin: 0 auto;
@@ -65,6 +64,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* gap: 200px; */
     color: #fff;
 }
 
@@ -77,9 +77,9 @@ nav h1{
 
 nav div{
     display: none;
-} */
+}
 
-/* nav ul{
+nav ul{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -98,16 +98,16 @@ nav ul li a{
     font-size: 1rem;
     color: #fff;
     opacity: 0.9;
-} */
+}
 
-/* nav ul li a:hover{
+nav ul li a:hover{
     color: #d8d5d5;
 }
 
 
 .home_btn{
     padding: 8px 18px;
-} */
+}
 
 
 /* banner section starts here */
@@ -124,12 +124,12 @@ nav ul li a{
 }
 
 
-/* .banner_heading{
+.banner_heading{
     color: #fff;
     font-size: 5rem;
     font-weight: 900;
     line-height: 100%;
-} */
+}
 
 #shape{
     font-family: 'Miama'; 
@@ -138,7 +138,7 @@ nav ul li a{
     /* font-family: "Great Vibes", cursive ; */
     /* color: #d8d5d5; */    
 }
-/* 
+
 .banner_description{
     margin-top: 22px;
     margin-bottom: 20px;
@@ -158,10 +158,10 @@ nav ul li a{
 
 .join_now_btn:hover{
     background-color: rgba(230, 83, 60, 0.9);;
-} */
+}
 
 
-/* .download_btn{
+.download_btn{
     padding: 12px 40px;
     background-color: rgb(28, 28, 28);
     border: 1px solid #fff;
@@ -180,10 +180,10 @@ nav ul li a{
 
 .banner_images_container{
     position: relative;
-} */
+}
 
 
-/* .banner_sticker_1{
+.banner_sticker_1{
     position: absolute;          
     top: 200px;
     right: 0;
@@ -192,6 +192,7 @@ nav ul li a{
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
+    /* border: 1px solid gray; */
     border: 1.5px solid rgba(150, 150, 150, 0.4);
     border-radius: 12px;
     transform: translateX(50px) translateY(-80px);
@@ -208,15 +209,16 @@ nav ul li a{
     font-size: 0.7rem;
     font-weight: 400;
     margin-top: 5px;    
-} */
+}
 
-/* .banner_sticker_2{
+.banner_sticker_2{
     position: absolute;
     top: 400px;
     right: 240px;
     width: 200px;
     height: 90px;
     padding: 10px 20px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(5px);
     border: 1.5px solid rgba(150, 150, 150, 0.4);
@@ -236,9 +238,9 @@ nav ul li a{
 
 .circle i{
     display: none;
-} */
+}
 
-/* .banner_sticker_2 h2{
+.banner_sticker_2 h2{
     color: #fff;
     font-size: 1.8rem;
     font-weight: 900;
@@ -249,12 +251,12 @@ nav ul li a{
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 5px;    
-} */
+}
 
 
 
 /* change your habit section starts */
-/* .change_your_habit_section{
+.change_your_habit_section{
     width: 1024px;
     margin: 0 auto;
     margin-top: 100px;
@@ -273,9 +275,9 @@ nav ul li a{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 16px;
     text-align: center;
-} */
+}
 
-/* .change_habit_exercise_container{
+.change_habit_exercise_container{
     margin-top: 60px;
     margin-bottom: 5px;
     display: flex;
@@ -291,10 +293,10 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     gap: 20px;
-} */
+}
 
-/* .change_habit_exercise_container  p{
-    
+.change_habit_exercise_container  p{
+    /* width: 90%; */
     font-size: 0.7rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
@@ -307,12 +309,12 @@ nav ul li a{
     border-radius: 50%;
     background-color: rgb(26, 26, 26);
     margin: auto;
-} */
+}
 
 
 /* Run an extra mile section */
 
-/* .run_extra_mile_section{
+.run_extra_mile_section{
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
@@ -338,11 +340,11 @@ nav ul li a{
     margin-top: 16px;
     margin-bottom: 16px;
     text-align: justify;
-} */
+}
 
 
 
-/* .run_extra_image_container{
+.run_extra_image_container{
     padding: 28px 32px 25px 0;
 }
 
@@ -354,11 +356,11 @@ nav ul li a{
 
 #run_img_mobile{
     display: none;
-} */
+}
 
 /* BMI calculator */
 
-/* .bmi_calculator_heading{
+.bmi_calculator_heading{
     width: 55%;
     margin: 0 auto;
    
@@ -370,11 +372,11 @@ nav ul li a{
     font-size: 0.85rem;
     font-weight: 400;    
     margin-top: 16px;
-} */
+}
 
 
 
-/* .bmi_calculator_chart_section{
+.bmi_calculator_chart_section{
     width: 100%;
     margin: 0 auto;
     margin-top: 50px;
@@ -391,9 +393,9 @@ nav ul li a{
 
 .bmi_calculator_chart_section h2{
     font-size: 2rem;
-} */
+}
 
-/* .calculator_chart{
+.calculator_chart{
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -405,10 +407,10 @@ nav ul li a{
 .bmi_calculator_chart_section  p,  td{
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
-} */
+}
 
 
-/* td, th{
+td, th{
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 15px 5px 15px 20px;
     text-align: left;  
@@ -427,8 +429,8 @@ nav ul li a{
     font-size: 0.75rem;
     font-weight: 400;    
     
-} */
-/* 
+}
+
 input[type="text"], input[type="number"], select{
     width: 220px;
     height: 48px;
@@ -449,11 +451,11 @@ option{
 
 #activity{
     width: 455px;
-} */
+}
 
 
 /* meet our team section */
-/* .meet_our_team_section{
+.meet_our_team_section{
     width: 84%;
     margin: 0 auto;
     margin-top: 60px;
@@ -471,10 +473,10 @@ option{
     margin-top: 16px;
     text-align: center;
     line-height: 25px;
-} */
+}
 
 
-/* .trainer_section{
+.trainer_section{
     background-color: rgb(34, 34, 34);
     margin-top: 70px;
     display: grid;
@@ -495,9 +497,9 @@ option{
 
 .trainer_section div{
     position: relative;
-} */
+}
 
-/* .trainer_section h3{
+.trainer_section h3{
     position: absolute;
     color: #fff;
     left: 20px;
@@ -514,14 +516,14 @@ option{
     font-size: 1rem;
     font-weight: 300;
     
-} */
+}
 
 
 
 /* Unique section styles */
 /* membership section */
 
-/* .membership{
+.membership{
     width: 84%;
     margin: 0 auto;
     margin-top: 60px;
@@ -534,10 +536,10 @@ option{
     justify-content: center;
     text-align: center;
     gap: 50px;    
-} */
+}
 
 /* #d8d5d5 */
-/* .membership > h2{
+.membership > h2{
     color:  #cdcaca;
     font-size: 2rem;
     font-weight: 900;
@@ -549,10 +551,10 @@ option{
 .plans_container{
     display: flex;
     gap: 30px;
-} */
+}
 
 
-/* .plans_container div{
+.plans_container div{
     width: 300px;
     background-color: #cdcaca;
     border-radius: 18px;
@@ -575,9 +577,9 @@ option{
     color: black;
     font-size: 1.6rem;
     font-weight: 900;
-} */
+}
 
-/* .plans_container h3{
+.plans_container h3{
     color: black;
     font-size: 1.5rem;
     font-weight: 900;
@@ -600,9 +602,9 @@ option{
     margin-top: 20px;
     margin-bottom: 30px;
     
-} */
+}
 
-/* .plans_container i{
+.plans_container i{
     color: rgb(58, 97, 8);
     font-size: 0.9rem;
     font-weight: 400;
@@ -618,12 +620,12 @@ option{
     border-radius: 8px;
     padding: 10px 26px;
     cursor: pointer;  
-} */
+}
 
 
 /* footer section starts here */
 
-/* footer{
+footer{
     width: 1280px;
     margin: 0 auto;
     background-color: rgb(26, 26, 26);
@@ -644,9 +646,9 @@ option{
 
 .footer_fitness{
     width: 40%;
-} */
+}
 
-/* .footer_fitness p{
+.footer_fitness p{
     color: rgba(255, 255, 255, 0.55);
     font-size: 0.8rem;
     font-weight: 400; 
@@ -669,9 +671,9 @@ footer h3{
 
 footer p{
     margin-top: 15px;
-} */
+}
 
-/* footer a{
+footer a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
@@ -692,7 +694,7 @@ hr{
 #copyright{
     word-spacing: 3px;
     font-size: 0.9rem;
-} */
+}
 
 
 
@@ -714,6 +716,7 @@ hr{
    
     nav{
         width: 90%;
+        
     }
 
     nav ul{
@@ -723,14 +726,15 @@ hr{
     nav div{
         display: block;
         font-size: 2rem;
-    } */
+    }
 
-    /* nav h1{   
+    nav h1{   
         font-size: 3rem;
     }
 
 
     .banner_container{
+     
         margin-top: 60px;       
         flex-direction: column;
         justify-content: left;
@@ -744,9 +748,9 @@ hr{
     }
     #shape{
         font-size: 6rem;
-    } */
+    }
 
-    /* .banner_description{
+    .banner_description{
         margin-top: 40px;
         font-size: 1.2rem;
         line-height: 30px;
@@ -755,7 +759,9 @@ hr{
 
     .join_now_btn{
         padding: 14px 38px;
-        font-size: 1.3rem;      
+        font-size: 1.3rem;
+    
+      
     }
     
     .download_btn{
@@ -766,10 +772,10 @@ hr{
 
     #club{
         display: none;
-    } */
+    }
 
-    /* .banner_images_container img{
-      
+    .banner_images_container img{
+        
         width: 90%;
         height: 70%;
         margin-left: 20px;
@@ -792,8 +798,8 @@ hr{
         top: 250px;
         left: 10px;
         
-    }     */
-    /* .circle i{
+    }    
+    .circle i{
         display: block;
         color: white;
         position: absolute;
@@ -812,9 +818,9 @@ hr{
 
     .run_extra_mile_section{
         width: 90%;
-    } */
+    }
 
-    /* .run_extra_text_container h1, 
+    .run_extra_text_container h1, 
     .run_extra_text_container p, 
 
     .bmi_calculator_heading,
@@ -840,9 +846,9 @@ hr{
         width: 100%;
         height: 90%;
         margin: auto; 
-    } */
+    }
 
-    /* .change_habit_exercise_container, .run_extra_mile_section, .plans_container{
+    .change_habit_exercise_container, .run_extra_mile_section, .plans_container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -920,4 +926,4 @@ hr{
     #copyright{
         font-size: 1.3rem;
     }
-} */
+}  */
