@@ -701,7 +701,7 @@ hr{
 
 /* responsive design for mobile device */
 
-/* @media screen and (max-width: 576px) {
+ @media screen and (max-width: 576px) {
 
     h1{
         font-size: 2.3rem;
@@ -926,4 +926,4 @@ hr{
     #copyright{
         font-size: 1.3rem;
     }
-}  */
+}
