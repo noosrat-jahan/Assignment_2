@@ -58,7 +58,7 @@ p{
 
 
 nav{    
-    width: 1010px;
+    width: 1015px;
     margin: 0 auto;
     padding-top: 50px;
     display: flex;
@@ -82,7 +82,7 @@ nav div{
 nav ul{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     margin-right: 60px;
     border: 1px solid rgba(150, 150, 150, 0.4);
     padding: 14px 14px 14px 6px;
@@ -120,7 +120,7 @@ nav ul li a:hover{
     /* grid-template-columns: repeat(2, 1fr); */
     align-items: center;
     justify-content: space-evenly;
-    gap: 90px;    
+    gap: 100px;    
 }
 
 
@@ -442,6 +442,7 @@ input[type="text"], input[type="number"], select{
     font-size: 1rem;
     margin-right: 10px;
     margin-top: 15px;
+    border-right: 20px solid transparent;
 }
 
 option{
@@ -451,6 +452,7 @@ option{
 
 #activity{
     width: 455px;
+    border-right: 20px solid transparent;
 }
 
 
