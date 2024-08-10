@@ -52,8 +52,8 @@ p{
     width: 1280px;
     margin: 0 auto;   
     /* background-color: rgba(17, 17, 17);  */
-    /* background-image: linear-gradient(180.00deg,  rgba(17, 17, 17, 1), rgba(119, 119, 119, 0)); */
-    background-image: linear-gradient(180.00deg,  rgb(35, 35, 35), rgba(119, 119, 119, 0.1));    
+    /* background-image: linear-gradient(180.00deg,  rgb(35, 35, 35), rgba(119, 119, 119, 0.1));     */
+    background-image: linear-gradient(180deg, #000000 0%, #201e1ef0 20%, #201e1ef0 70%, #000000de 100%);
 }
 
 
